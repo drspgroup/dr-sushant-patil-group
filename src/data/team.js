@@ -60,9 +60,9 @@ export const teamGroups = [
     label: 'Toolbox Studio',
     gridStyle: 'standard',
     members: [
-      { name: 'Parth Ghatge', role: 'Head of Studio', photo: 'team/toolbox-studio/parth-ghatge.jpg' },
-      { name: 'Mangesh Palkrit', role: 'Head of VFX', photo: 'team/toolbox-studio/mangesh-palkrit.jpg' },
-      { name: 'Sudeep Shetty', role: 'Head – Branded Content', photo: 'team/toolbox-studio/sudeep-shetty.jpg' },
+      { name: 'Parth Ghatge', role: 'Head of Studio', photo: '/team/toolbox-studio/parth-ghatge.jpg' },
+      { name: 'Mangesh Palkrit', role: 'Head of VFX', photo: '/team/toolbox-studio/mangesh-palkrit.jpg' },
+      { name: 'Sudeep Shetty', role: 'Head – Branded Content', photo: '/team/toolbox-studio/sudeep-shetty.jpg' },
     ],
   },
   {
@@ -70,7 +70,7 @@ export const teamGroups = [
     label: 'Anuja Sushant Patil Global Foundation',
     gridStyle: 'standard',
     members: [
-      { name: 'Madan Adde', role: 'Project Director', photo: 'team/aspgf/madan-aspgf.png' }
+      { name: 'Madan Adde', role: 'Project Director', photo: '/team/aspgf/madan-aspgf.png' }
     ],
   },
   {
@@ -78,9 +78,9 @@ export const teamGroups = [
     label: 'Central Team',
     gridStyle: 'standard',
     members: [
-      { name: 'Pradip Khandave', role: 'CFO', photo: 'team/central/pradip-khandave.jpeg' },
-      { name: 'Rohan Pawar', role: 'CFO', photo: 'team/central/rohan-pawar.jpg' },
-      { name: 'Shreyas Deshpande', role: 'Director - Creative & Cultural', photo: 'team/central/shreyas-deshpande.png' },
+      { name: 'Pradip Khandave', role: 'CFO', photo: '/team/central/pradip-khandave.jpeg' },
+      { name: 'Rohan Pawar', role: 'CFO', photo: '/team/central/rohan-pawar.jpg' },
+      { name: 'Shreyas Deshpande', role: 'Director - Creative & Cultural', photo: '/team/central/shreyas-deshpande.png' },
     ],
   },
 ]
