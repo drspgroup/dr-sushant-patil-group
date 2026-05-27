@@ -21,6 +21,11 @@ const dancingScript = Dancing_Script({
 export const metadata = {
   title: "Dr. Sushant Patil Group",
   description: "Dr. Sushant Patil Group — a dynamic ecosystem of education, creativity, innovation, and social impact across seven purpose-driven institutions in Pune.",
+  icons: {
+    icon: "/dsp-favicon.png",
+    shortcut: "/dsp-favicon.png",
+    apple: "/dsp-favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
