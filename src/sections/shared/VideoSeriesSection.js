@@ -24,9 +24,7 @@ export default function VideoSeriesSection() {
             Events & <span className="text-[#c9a84c]">Updates</span>
           </h2>
           <p className="text-body text-zinc-500 text-sm md:text-base lg:text-lg">
-            Unfiltered insights, ground realities, and expert conversations —
-            straight from the people who rely on DSP Group for every major
-            property decision.
+            Bringing together experiences, achievements, collaborations, and celebrations from across our campuses.
           </p>
         </div>
 
@@ -77,10 +75,10 @@ export default function VideoSeriesSection() {
                     src={item.image}
                     alt={item.title}
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
-
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                     priority={index === 0}
                     loading={index === 0 ? 'eager' : 'lazy'}
+                    className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                   />
 
                   {/* Gradient overlay */}

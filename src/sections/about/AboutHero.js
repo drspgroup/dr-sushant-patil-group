@@ -12,12 +12,11 @@ export default function AboutHero() {
         <div className="flex flex-col gap-6 md:gap-8 lg:flex-row lg:items-end lg:justify-between">
           <h1 className="font-black leading-tight tracking-tight text-black
                          text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-            About Us
+            About <span className="text-[#c9a84c]">Us</span>
           </h1>
           <p className="max-w-sm font-semibold leading-relaxed text-black/40 lg:mb-2 lg:text-right
                         text-sm md:text-base lg:text-lg">
-            DSP Group is Pune's leading property inspection firm — built on technology,
-            driven by precision, and trusted by Maharashtra's largest institutions.
+            Founded on strong values and driven by a commitment to lasting impact.
           </p>
         </div>
 

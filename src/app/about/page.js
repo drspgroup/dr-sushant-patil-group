@@ -8,8 +8,8 @@ import TeamPatriarchSection from '@/sections/about/TeamPatriarchSection'
 import VideoSeriesSection from '@/sections/shared/VideoSeriesSection'
 
 export const metadata = {
-  title: 'About Us - Dr. Sushant Patil Group',
-  description: 'Learn about DSP Group - Pune\'s leading property inspection firm.',
+  title: 'About Us — Dr. Sushant Patil Group',
+  description: 'Learn about Dr. Sushant Patil Group — founded on strong values and driven by a commitment to education, innovation, creativity, and lasting social impact.',
 }
 
 export default function AboutPage() {

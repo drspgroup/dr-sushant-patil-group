@@ -17,7 +17,7 @@ function NewsCard({ article, priority }) {
             src={article.image}
             alt={article.title}
             fill
-
+            sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
             priority={priority}
             loading={priority ? 'eager' : 'lazy'}
             className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"

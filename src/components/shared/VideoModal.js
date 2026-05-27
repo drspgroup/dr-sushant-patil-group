@@ -63,6 +63,7 @@ export default function VideoModal({ youtubeVideo, onClose }) {
         {/* Close button */}
         <button
           onClick={handleClose}
+          aria-label="Close video"
           className="absolute -right-2 -top-10 flex h-8 w-8 items-center justify-center rounded-full border border-white/30 text-white transition-all duration-200 hover:border-white hover:bg-white hover:text-black"
         >
           <X size={15} />

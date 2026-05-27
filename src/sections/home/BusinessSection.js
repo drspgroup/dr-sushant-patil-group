@@ -19,6 +19,7 @@ function BizCard({ biz }) {
           src={biz.image}
           alt={biz.name}
           fill
+          sizes="(min-width: 1024px) 70vw, 100vw"
           className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.05]"
 
         />
@@ -97,7 +98,7 @@ export default function BusinessSection() {
             {/* <div className="my-6 h-[2px] w-10 bg-[#c9a84c] md:my-7" /> */}
 
             <p className="text-body text-zinc-500 text-sm md:text-base lg:text-lg mt-3 md:mt-4">
-              A collective of institutions, creative ventures, and social initiatives driven by purpose.
+              Seven purpose-driven entities fostering education, creativity, and community impact.
             </p>
 
           </div>

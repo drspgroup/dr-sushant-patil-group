@@ -20,7 +20,7 @@ const dancingScript = Dancing_Script({
 
 export const metadata = {
   title: "Dr. Sushant Patil Group",
-  description: "Premium property inspection and real estate services.",
+  description: "Dr. Sushant Patil Group — a dynamic ecosystem of education, creativity, innovation, and social impact across seven purpose-driven institutions in Pune.",
 };
 
 export default function RootLayout({ children }) {

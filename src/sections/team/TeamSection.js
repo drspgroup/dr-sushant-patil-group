@@ -12,7 +12,7 @@ function MemberCard({ member }) {
               src={member.photo}
               alt={member.name}
               fill
-
+              sizes="(min-width: 1024px) 25vw, 50vw"
               className="object-cover"
             />
           )}

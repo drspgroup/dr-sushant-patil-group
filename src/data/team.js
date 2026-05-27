@@ -16,7 +16,7 @@ export const teamGroups = [
     gridStyle: 'standard',
     members: [
       { name: 'Dr. Suresh Mali', role: 'Principal', photo: '/team/dypcoei/dr-suresh-mali.jpg' },
-      { name: 'Dr. Alpana Adsul', role: 'Head Of Department (HOD)', photo: '/team/dypcoei/dr-alpana-adsul.webp' },
+      { name: 'Dr. Alpana Adsul', role: 'Head Of Department (HOD)', photo: '/team/dypcoei/dr-alpana-adsul.jpg' },
       // { name: 'Mr. T Arivanantham', role: 'Assistant Professor', photo: '/team/dypcoei/mr-t-arivanantham.webp' },
       // { name: 'Dr. Sopan Raosaheb Shinde', role: 'Assistant Professor', photo: '/team/dypcoei/dr-sopan-raosaheb-shinde.webp' },
       // { name: 'Mr. Abha Pathak', role: 'Assistant Professor', photo: '/team/dypcoei/ms-abha-pathak-.webp' },
@@ -47,7 +47,7 @@ export const teamGroups = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     label: 'Seamedu',
     gridStyle: 'standard',
     members: [
@@ -56,7 +56,7 @@ export const teamGroups = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     label: 'Toolbox Studio',
     gridStyle: 'standard',
     members: [
@@ -66,7 +66,7 @@ export const teamGroups = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     label: 'Anuja Sushant Patil Global Foundation',
     gridStyle: 'standard',
     members: [
@@ -74,7 +74,7 @@ export const teamGroups = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     label: 'Central Team',
     gridStyle: 'standard',
     members: [

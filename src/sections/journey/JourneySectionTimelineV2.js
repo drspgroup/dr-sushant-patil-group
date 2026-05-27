@@ -166,6 +166,7 @@ export default function JourneySectionTimelineV2({ showHeader = true }) {
               <img
                 src={step.image}
                 alt={step.caption}
+                loading="lazy"
                 className="h-full w-full object-cover"
               />
             </div>

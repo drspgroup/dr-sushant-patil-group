@@ -23,8 +23,7 @@ export default function TeamAnujaSection() {
 
               {/* Body */}
               <div className="flex-1 px-2 py-6 md:px-4 md:py-8 lg:px-10 lg:py-12">
-                <h2 className="mb-6 md:mb-8 font-black leading-tight tracking-tight text-zinc-900
-                               text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+                <h2 className="mb-6 md:mb-8 font-black leading-tight tracking-tight text-zinc-900 text-xl md:text-2xl lg:text-3xl">
                   Adv. Anuja Sushant Patil
                 </h2>
 
@@ -94,7 +93,7 @@ export default function TeamAnujaSection() {
                 src="/adv-anuja-patil.jpg"
                 alt="Adv. Anuja Patil"
                 fill
-
+                sizes="(min-width: 1024px) 50vw, 100vw"
                 className="object-cover object-center"
               />
             </div>

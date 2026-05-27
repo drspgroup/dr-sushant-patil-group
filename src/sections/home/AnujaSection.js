@@ -73,7 +73,7 @@ export default function AnujaSection() {
                 src="/adv-anuja-patil.jpg"
                 alt="Adv. Anuja Patil"
                 fill
-
+                sizes="(min-width: 1024px) 50vw, 100vw"
                 className="object-cover object-center"
               />
             </div>

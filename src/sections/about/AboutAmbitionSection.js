@@ -67,21 +67,21 @@ export default function AboutAmbitionSection() {
 
           <h2 className="amb-item mb-5 font-black leading-tight tracking-tight text-zinc-900 opacity-0 text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
             BUILT ON<br />
-            TWO DECADES<br />
+            YEARS<br />
             OF <span className="text-[#c9a84c]">TRUST.</span>
           </h2>
 
-          <p className="amb-item mb-3 max-w-sm font-semibold leading-relaxed text-zinc-600 opacity-0 text-sm md:text-base lg:text-lg">
-            DSP Group was founded with a single belief — that property buyers deserve complete clarity. From structural integrity to electrical safety, we leave no corner uninspected.
-          </p>
+          {/* <p className="amb-item mb-3 max-w-sm font-semibold leading-relaxed text-zinc-600 opacity-0 text-sm md:text-base lg:text-lg">
+            Built on the belief that education is a powerful force for transformation, the Dr. Sushant Patil Group brings together institutions dedicated to empowering individuals through knowledge, creativity, innovation, and values-driven growth.
+          </p> */}
 
           <p className="amb-item mb-6 max-w-sm font-semibold leading-relaxed text-zinc-800 opacity-0 text-sm md:text-base lg:text-lg">
-            Today, with 500+ inspections completed across Maharashtra, we are the trusted name for families, investors, and institutions alike.
+            Built on the belief that education is a powerful force for transformation, the Dr. Sushant Patil Group brings together institutions dedicated to empowering individuals through knowledge, creativity, innovation, and values-driven growth.
           </p>
 
           <div className="amb-item opacity-0">
             <a
-              href="/about"
+              href="/journey"
               className="group inline-flex items-center gap-3 rounded-full border border-zinc-200 bg-zinc-100 px-5 py-2.5 text-xs font-semibold uppercase tracking-widest text-zinc-700 transition-all duration-300 hover:border-[#c9a84c] hover:bg-[#c9a84c] hover:text-zinc-900 sm:px-6 sm:py-3 sm:text-xs"
             >
               See our Journey
@@ -109,7 +109,7 @@ export default function AboutAmbitionSection() {
             <div ref={col1Ref} className="flex flex-col gap-2.5">
               {[...col1, ...col1].map((img, i) => (
                 <div key={i} className="w-full flex-shrink-0 overflow-hidden rounded-xl h-36 sm:h-44 md:h-48 lg:h-44 xl:h-52">
-                  <img src={img.src} alt={img.alt}
+                  <img src={img.src} alt={img.alt} loading="lazy"
                        className="h-full w-full object-cover" draggable={false} />
                 </div>
               ))}
@@ -121,7 +121,7 @@ export default function AboutAmbitionSection() {
             <div ref={col2Ref} className="flex flex-col gap-2.5 translate-y-12">
               {[...col2, ...col2].map((img, i) => (
                 <div key={i} className="w-full flex-shrink-0 overflow-hidden rounded-xl h-36 sm:h-44 md:h-48 lg:h-44 xl:h-52">
-                  <img src={img.src} alt={img.alt}
+                  <img src={img.src} alt={img.alt} loading="lazy"
                        className="h-full w-full object-cover" draggable={false} />
                 </div>
               ))}

@@ -3,10 +3,10 @@ import JourneySectionTimelineV2 from '@/sections/journey/JourneySectionTimelineV
 
 export const metadata = {
   title: 'Our Journey — Dr. Sushant Patil Group',
-  description: 'Two decades of trusted property inspection across Maharashtra.',
+  description: 'Two decades of milestones, growth, and vision — the story of the Dr. Sushant Patil Group, one chapter at a time.',
 }
 
-export default function Journey8Page() {
+export default function JourneyPage() {
   return (
     <main className="pt-16 md:pt-20 lg:pt-24 xl:pt-28">
       <JourneyHeroSectionV3 />

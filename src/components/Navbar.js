@@ -16,7 +16,7 @@ const navLinks = [
 
 export default function Navbar() {
   const pathname = usePathname()
-  const isHome   = pathname === '/' || pathname === '/home-2'
+  const isHome   = pathname === '/'
 
   const [pastHero, setPastHero] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -61,16 +61,13 @@ export default function Navbar() {
               width={120}
               height={60}
               priority
-              loading="eager"
-
-              style={{ width: 'auto' }}
-              className="h-10 object-contain md:h-12 lg:h-14 xl:h-16"
+              className="h-10 w-auto object-contain md:h-12 lg:h-14 xl:h-16"
             />
           </Link>
         </div>
 
         {/* Desktop nav links */}
-        <nav className={`hidden items-center gap-6 md:flex lg:gap-8 xl:gap-10   transition-all duration-500 ${
+        <nav className={`hidden items-center gap-6 md:flex lg:gap-8 xl:gap-10 transition-all duration-500 ${
           isVisible ? 'translate-y-0 opacity-100' : '-translate-y-2 opacity-0'
         }`}>
           {navLinks.map((link) => {
@@ -95,6 +92,7 @@ export default function Navbar() {
         <button
           onClick={() => setMenuOpen((prev) => !prev)}
           aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={menuOpen}
           className="flex items-center justify-center text-white transition-opacity duration-200 hover:opacity-70 md:hidden"
         >
           {menuOpen
@@ -106,7 +104,7 @@ export default function Navbar() {
 
       {/* ── Mobile full-screen overlay ── */}
       <div
-        className={`fixed inset-0 z-40 flex flex-col bg-[#100146]  transition-all duration-500 ease-in-out md:hidden ${
+        className={`fixed inset-0 z-40 flex flex-col bg-[#100146] transition-all duration-500 ease-in-out md:hidden ${
           menuOpen
             ? 'opacity-100 pointer-events-auto'
             : 'opacity-0 pointer-events-none'

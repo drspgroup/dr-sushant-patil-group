@@ -5,10 +5,10 @@ import TeamSection from '@/sections/team/TeamSection'
 
 export const metadata = {
   title: 'Our Team — Dr. Sushant Patil Group',
-  description: 'Meet the people behind DSP Group inspection excellence.',
+  description: 'Meet the leaders, educators, and innovators driving the Dr. Sushant Patil Group\'s mission of excellence.',
 }
 
-export default function Team2Page() {
+export default function TeamPage() {
   return (
     <main className="pt-16 md:pt-20 lg:pt-24 xl:pt-28">
       <TeamHeroSectionV2 />

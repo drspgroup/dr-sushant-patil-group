@@ -82,15 +82,17 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="shrink-0 text-[#c9a84c]" />
-                +91 XX XXXX XXXX
+                <a href="tel:+919223008212" className="transition-colors duration-200 hover:text-[#c9a84c]">
+                  +91 92230 08212
+                </a>
               </li>
-              <li className="flex items-center gap-3">
+              {/* <li className="flex items-center gap-3">
                 <Mail size={16} className="shrink-0 text-[#c9a84c]" />
                 something@mail.com
-              </li>
+              </li> */}
               <li className="flex items-center gap-3">
                 <Clock size={16} className="shrink-0 text-[#c9a84c]" />
-                Mon – Fri, 9am – 6pm
+                Mon – Sat, 9:30am – 5:30pm
               </li>
             </ul>
           </div>

@@ -5,7 +5,7 @@ export default function JourneyHeroSectionV3() {
 
         <div className="flex flex-col gap-6 md:gap-8 lg:flex-row lg:items-end lg:justify-between">
           <h1 className="font-black leading-tight tracking-tight text-black text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-            Our Journey
+            Our <span className="text-[#c9a84c]">Journey</span>
           </h1>
           <p className="max-w-sm font-semibold leading-relaxed text-black/40 lg:mb-2 lg:text-right text-sm md:text-base lg:text-lg">
             Two decades of milestones, growth, and vision —
