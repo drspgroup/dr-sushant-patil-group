@@ -78,7 +78,7 @@ export const teamGroups = [
     label: 'Central Team',
     gridStyle: 'standard',
     members: [
-      { name: 'Pradip Khandave', role: 'CFO', photo: '/team/central/pradip-khandave.jpeg' },
+      { name: 'Pradip Khandave', role: 'Central Level Registrar', photo: '/team/central/pradip-khandave.jpeg' },
       { name: 'Rohan Pawar', role: 'CFO', photo: '/team/central/rohan-pawar.jpg' },
       { name: 'Shreyas Deshpande', role: 'Director - Creative & Cultural', photo: '/team/central/shreyas-deshpande.png' },
     ],
