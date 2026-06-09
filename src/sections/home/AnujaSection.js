@@ -61,7 +61,7 @@ export default function AnujaSection() {
               <footer className="px-6 py-4 md:px-8 md:py-5 lg:px-10 lg:py-6">
                 <p className="text-name text-zinc-900 text-xl md:text-2xl lg:text-3xl">Adv. Anuja Sushant Patil</p>
                 <p className="text-role text-zinc-600 text-base">
-                  Managing Director, Dr. Sushant Patil Group
+                  Founder, Dr. Sushant Patil Group
                 </p>
               </footer>
 
