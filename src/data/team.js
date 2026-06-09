@@ -1,17 +1,27 @@
 export const teamGroups = [
   {
     id: 1,
+    label: 'Central Team',
+    gridStyle: 'standard',
+    members: [
+      { name: 'Mr. Vidyanand Mankar', role: 'Executive Director', photo: '/team/dypimed/vidyanand-mankar.jpeg' },
+      { name: 'Pradip Khandave', role: 'Central Level Registrar', photo: '/team/central/pradip-khandave.jpeg' },
+      { name: 'Rohan Pawar', role: 'CFO', photo: '/team/central/rohan-pawar.jpg' },
+      { name: 'Shreyas Deshpande', role: 'Director - Creative & Cultural', photo: '/team/central/shreyas-deshpande.png' },
+    ],
+  },
+  {
+    id: 2,
     label: 'Dr. D Y Patil Institute of Management & Entrepreneur Development',
     gridStyle: 'management',
     members: [
       { name: 'Dr. Meghana Bhilare', role: 'Director', photo: '/team/dypimed/dr-meghana-bhilare.jpg' },
-      { name: 'Mr. Vidyanand Mankar', role: 'Executive Director', photo: '/team/dypimed/vidyanand-mankar.jpeg' },
       { name: 'Dr. Ashwini Chavan', role: 'Head Of Department - MCA', photo: '/team/dypimed/dr-ashwini-chavan.jpg' },
       { name: 'Dr. Preeti Sharma', role: 'Head Of Department - MBA', photo: '/team/dypimed/dr-preeti-sharma.jpg' },
     ],
   },
   {
-    id: 2,
+    id: 3,
     label: 'Dr. D Y Patil College of Engineering & Innovation',
     gridStyle: 'standard',
     members: [
@@ -24,7 +34,7 @@ export const teamGroups = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     label: 'Dr. D Y Patil Technical Campus',
     gridStyle: 'standard',
     members: [
@@ -35,7 +45,7 @@ export const teamGroups = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     label: 'Dr. D Y Patil School of Architecture',
     gridStyle: 'standard',
     members: [
@@ -47,7 +57,7 @@ export const teamGroups = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     label: 'Seamedu',
     gridStyle: 'standard',
     members: [
@@ -56,7 +66,7 @@ export const teamGroups = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     label: 'Toolbox Studio',
     gridStyle: 'standard',
     members: [
@@ -66,21 +76,11 @@ export const teamGroups = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     label: 'Anuja Sushant Patil Global Foundation',
     gridStyle: 'standard',
     members: [
       { name: 'Madan Adde', role: 'Project Director', photo: '/team/aspgf/madan-aspgf.png' }
-    ],
-  },
-  {
-    id: 8,
-    label: 'Central Team',
-    gridStyle: 'standard',
-    members: [
-      { name: 'Pradip Khandave', role: 'Central Level Registrar', photo: '/team/central/pradip-khandave.jpeg' },
-      { name: 'Rohan Pawar', role: 'CFO', photo: '/team/central/rohan-pawar.jpg' },
-      { name: 'Shreyas Deshpande', role: 'Director - Creative & Cultural', photo: '/team/central/shreyas-deshpande.png' },
     ],
   },
 ]
