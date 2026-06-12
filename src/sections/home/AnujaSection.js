@@ -42,8 +42,7 @@ export default function AnujaSection() {
                 </div>
 
                 {/* Desktop — full */}
-                <div className="hidden md:block space-y-4 text-body text-zinc-600
-                                text-sm md:text-base lg:text-lg">
+                <div className="hidden md:block space-y-4 text-body text-zinc-600 text-sm md:text-base lg:text-lg">
                   <p>
                     At Dr. Sushant Patil Group, we believe education goes beyond degrees — it is about inspiring minds, transforming lives, and shaping future leaders. Our institutions, including DYPCOEI, DYPIMED, DYPTC, DYPSOA, Seamedu, Toolbox Animation & VFX Studio, and the Anuja Sushant Patil Global Foundation, are dedicated to delivering academic excellence with innovation, creativity, ethics, and social responsibility.
                   </p>
