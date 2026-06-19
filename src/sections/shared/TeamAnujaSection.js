@@ -1,13 +1,5 @@
 import Image from 'next/image'
-import { Briefcase, MapPin, Building2, Award } from 'lucide-react'
 import ReadMore from '@/components/shared/ReadMore'
-
-const roles = [
-  { icon: Briefcase, text: 'Managing Director at DSP Group' },
-  { icon: Building2, text: 'Director at Anuja Sushant Patil Global Foundation' },
-  { icon: Award,     text: 'Advocate & Legal Advisor, Pune District Court' },
-  { icon: MapPin,    text: 'Pimpri-Chinchwad, Pune, Maharashtra' },
-]
 
 export default function TeamAnujaSection() {
   return (
