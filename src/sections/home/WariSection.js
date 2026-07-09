@@ -14,14 +14,13 @@ export default function WariSection() {
                             <h2 className="mb-4 font-black leading-tight tracking-tight text-zinc-900 text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
                                 In Service of the Wari
                             </h2>
-                            <p className="mb-8 max-w-md text-body text-zinc-500 text-sm md:text-base lg:text-lg">
+                            <p className="max-w-md text-body text-zinc-500 text-sm md:text-base lg:text-lg">
                                 The Dr. Sushant Patil Group stands in service of the sacred Pandharpur Wari — supporting the millions of devotees who make the pilgrimage each year.
                             </p>
                         </div>
 
                         {/* ── Right: video thumbnail ── */}
                         <button
-                            // onClick={() => setActiveVideo(YOUTUBE_VIDEO)}
                             className="group relative block w-full overflow-hidden rounded-2xl text-left"
                         >
                             <div className="relative aspect-video w-full">
