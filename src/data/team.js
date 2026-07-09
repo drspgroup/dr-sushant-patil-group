@@ -75,12 +75,12 @@ export const teamGroups = [
       { name: 'Sudeep Shetty', role: 'Head – Branded Content', photo: '/team/toolbox-studio/sudeep-shetty.jpg' },
     ],
   },
-  {
-    id: 8,
-    label: 'Anuja Sushant Patil Global Foundation',
-    gridStyle: 'standard',
-    members: [
-      { name: 'Madan Adde', role: 'Project Director', photo: '/team/aspgf/madan-aspgf.png' }
-    ],
-  },
+  // {
+  //   id: 8,
+  //   label: 'Anuja Sushant Patil Global Foundation',
+  //   gridStyle: 'standard',
+  //   members: [
+  //     { name: 'Madan Adde', role: 'Project Director', photo: '/team/aspgf/madan-aspgf.png' }
+  //   ],
+  // },
 ]
