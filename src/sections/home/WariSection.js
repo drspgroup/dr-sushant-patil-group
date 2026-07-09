@@ -1,13 +1,4 @@
-'use client'
-
-import { useState } from 'react'
-import { ArrowUpRight, Play } from 'lucide-react'
-import VideoModal from '@/components/shared/VideoModal'
-
-// const YOUTUBE_VIDEO = 'https://www.youtube.com/embed/dHXujVtvauQ'
-
 export default function WariSection() {
-    const [activeVideo, setActiveVideo] = useState(null)
 
     return (
         <>
@@ -26,20 +17,6 @@ export default function WariSection() {
                             <p className="mb-8 max-w-md text-body text-zinc-500 text-sm md:text-base lg:text-lg">
                                 The Dr. Sushant Patil Group stands in service of the sacred Pandharpur Wari — supporting the millions of devotees who make the pilgrimage each year.
                             </p>
-                            {/* <button
-                                href="https://www.youtube.com/embed/dHXujVtvauQ"
-                                className="group inline-flex items-center gap-3 rounded-full border border-zinc-200 bg-zinc-100 px-5 py-2.5 text-xs font-semibold uppercase tracking-widest text-zinc-700 transition-all duration-300 hover:border-[#c9a84c] hover:bg-[#c9a84c] hover:text-zinc-900 sm:px-6 sm:py-3 sm:text-xs"
-                            >
-                                Watch Full Podcast
-                                <span className="relative flex h-7 w-7 items-center justify-center rounded-full bg-zinc-300 overflow-hidden transition-colors duration-300 group-hover:bg-zinc-900/15">
-                                    <span className="absolute inset-0 flex items-center justify-center transition-transform duration-300 group-hover:-translate-y-full">
-                                        <ArrowUpRight size={14} />
-                                    </span>
-                                    <span className="absolute inset-0 flex items-center justify-center translate-y-full transition-transform duration-300 group-hover:translate-y-0">
-                                        <ArrowUpRight size={14} />
-                                    </span>
-                                </span>
-                            </button> */}
                         </div>
 
                         {/* ── Right: video thumbnail ── */}
@@ -53,24 +30,12 @@ export default function WariSection() {
                                     alt="Podcast with Adv. Anuja Sushant Patil"
                                     className="absolute inset-0 h-full w-full object-cover transition-transform duration-700"
                                 />
-                                {/* <div className="absolute inset-0 flex items-center justify-center">
-                                    <span className="flex h-14 w-14 items-center justify-center rounded-full border border-white/60 bg-white/10 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/20 group-hover:scale-110 md:h-16 md:w-16">
-                                        <Play size={24} fill="white" className="text-white ml-0.5" />
-                                    </span>
-                                </div> */}
                             </div>
                         </button>
 
                     </div>
                 </div>
             </section>
-
-            {activeVideo && (
-                <VideoModal
-                    youtubeVideo={activeVideo}
-                    onClose={() => setActiveVideo(null)}
-                />
-            )}
         </>
     )
 }
