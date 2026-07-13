@@ -79,7 +79,7 @@ export default function AboutAmbitionSection() {
             Built on the belief that education is a powerful force for transformation, the Dr. Sushant Patil Group brings together institutions dedicated to empowering individuals through knowledge, creativity, innovation, and values-driven growth.
           </p>
 
-          <div className="amb-item opacity-0">
+          {/* <div className="amb-item opacity-0">
             <a
               href="/journey"
               className="group inline-flex items-center gap-3 rounded-full border border-zinc-200 bg-zinc-100 px-5 py-2.5 text-xs font-semibold uppercase tracking-widest text-zinc-700 transition-all duration-300 hover:border-[#c9a84c] hover:bg-[#c9a84c] hover:text-zinc-900 sm:px-6 sm:py-3 sm:text-xs"
@@ -94,7 +94,7 @@ export default function AboutAmbitionSection() {
                 </span>
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* ── Right — infinite carousel ── */}

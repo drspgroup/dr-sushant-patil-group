@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
 
           {/* Logo */}
-          <div className="shrink-0">
+          <div className="shrink-0 flex justify-center">
             <Image
               src="/dsp-logo.png"
               alt="Dr. Sushant Patil Group"

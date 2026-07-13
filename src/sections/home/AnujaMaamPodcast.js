@@ -26,8 +26,10 @@ export default function AnujaMaamPodcast() {
                             <p className="mb-8 max-w-md text-body text-zinc-500 text-sm md:text-base lg:text-lg">
                                 Hear our Managing Director share the thinking behind our initiatives and what meaningful, skill-first education looks like in practice.
                             </p>
-                            <button
-                                href="https://www.youtube.com/embed/dHXujVtvauQ"
+                            <a
+                                href="https://www.youtube.com/watch?v=dHXujVtvauQ"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="group inline-flex items-center gap-3 rounded-full border border-zinc-200 bg-zinc-100 px-5 py-2.5 text-xs font-semibold uppercase tracking-widest text-zinc-700 transition-all duration-300 hover:border-[#c9a84c] hover:bg-[#c9a84c] hover:text-zinc-900 sm:px-6 sm:py-3 sm:text-xs"
                             >
                                 Watch Full Podcast
@@ -39,7 +41,7 @@ export default function AnujaMaamPodcast() {
                                         <ArrowUpRight size={14} />
                                     </span>
                                 </span>
-                            </button>
+                            </a>
                         </div>
 
                         {/* ── Right: video thumbnail ── */}
