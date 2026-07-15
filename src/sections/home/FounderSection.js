@@ -31,15 +31,9 @@ export default function FounderSection() {
                 </h2>
 
                 <div className="space-y-4 text-body text-zinc-600 text-sm md:text-base lg:text-lg">
-                  <p>
-                    He represents a strong bridge between academia and the evolving needs of the global VFX and media industry. With over two decades of leadership, he focuses on aligning education with real-world industry demands—building talent that is both creatively strong and production-ready.
-                  </p>
-                  <p>
-                    His emphasis on experiential learning, AI, and interdisciplinary approaches directly supports the development of future-ready professionals for modern content pipelines. His commitment to global collaborations and industry integration creates opportunities for innovation, co-creation, and sustainable talent development.
-                  </p>
-                  <p>
-                    For Toolbox Studio, this partnership enables access to skilled talent while driving the future of creative technology and Storytelling.
-                  </p>
+                  <p> Welcome to the Dr. Sushant Patil Group — a dynamic ecosystem of excellence in education, innovation, creativity, and social impact. Through our institutions including DYPCOEI, DYPIMED, DYPTC, DYPSOA, SEAMEDU, TOOLBOX Animation & VFX Studio, and ASPGF, we are committed to shaping future-ready leaders and responsible global citizens.                  </p>
+                  <p> Our focus goes beyond academics. With modern infrastructure, industry-oriented learning, experienced faculty, and a culture of innovation, we empower students with the skills, values, creativity, and confidence needed to thrive in a rapidly evolving world.                  </p>
+                  <p> At Dr. Sushant Patil Group, we believe education is the foundation of transformation. By fostering excellence, entrepreneurship, research, and social responsibility, we help every learner discover their true potential and build a successful, meaningful future.                  </p>
                 </div>
 
                 {/* Signature */}
